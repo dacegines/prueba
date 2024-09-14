@@ -7,7 +7,9 @@
 @stop
 
 @section('content')
-    <p>Welcome to this beautiful admin panel <span class="text-danger">ESTO ES UNA PRUEBA Parece que el prollecto va bien.</span></p>
+    <p>Welcome to this beautiful admin panel <span class="text-danger">ESTO ES UNA PRUEBA Parece que el proyecto va bien.</span></p>
+    <br>
+    <p class="text-primary">La programacion es bonita pero te tiene que gustar</p>
 @stop
 
 @section('css')
