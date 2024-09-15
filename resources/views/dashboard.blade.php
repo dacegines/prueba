@@ -12,6 +12,8 @@
     <p class="text-primary">La programacion es bonita pero te tiene que gustar</p>
     <br>
     <p class="text-success">Ahora esto es un texto Verde</p>
+    <br>
+    <p class="text-warning">Ahora este es un texto amarillo</p>
 @stop
 
 @section('css')
