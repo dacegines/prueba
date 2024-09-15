@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\CrudController;
+
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -15,3 +18,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+Route::resource('crud', CrudController::class)->middleware('auth');
+

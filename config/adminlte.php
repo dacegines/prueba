@@ -316,6 +316,12 @@ return [
             'can' => 'manage-blog',
         ],
         [
+            'text' => 'Crud',
+            'route'  => 'crud.index',
+            'icon' => 'fas fa-fw fa-database',
+        ],
+
+        [
             'text' => 'pages',
             'url' => 'admin/pages',
             'icon' => 'far fa-fw fa-file',
