@@ -10,6 +10,8 @@
     <p>Welcome to this beautiful admin panel <span class="text-danger">ESTO ES UNA PRUEBA Parece que el proyecto va bien.</span></p>
     <br>
     <p class="text-primary">La programacion es bonita pero te tiene que gustar</p>
+    <br>
+    <p class="text-success">Ahora esto es un texto Verde</p>
 @stop
 
 @section('css')
