@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\CrudController;
 
+use App\Http\Controllers\FotoController;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -21,4 +23,9 @@ Route::middleware([
 
 
 Route::resource('crud', CrudController::class)->middleware('auth');
+
+
+
+Route::resource('fotos', FotoController::class)->middleware('auth');
+
 
