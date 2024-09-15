@@ -26,6 +26,6 @@ Route::resource('crud', CrudController::class)->middleware('auth');
 
 
 
-Route::resource('fotos', FotoController::class)->middleware('auth');
+
 
 

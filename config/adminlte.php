@@ -320,11 +320,6 @@ return [
             'route'  => 'crud.index',
             'icon' => 'fas fa-fw fa-database',
         ],
-        [
-            'text' => 'Fotos',
-            'route'  => 'fotos.index',
-            'icon' => 'fas fa-fw fa-image',
-        ],
 
         [
             'text' => 'pages',
